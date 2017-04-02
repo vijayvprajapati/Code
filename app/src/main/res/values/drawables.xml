@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_account_balance_black_24dp" type="drawable">@drawable/ic_account_balance_black_24dp</item>
+    <item name="makeorder" type="drawable">@drawable/makeorder</item>
+    <item name="orderview" type="drawable">@drawable/orderview</item>
+    <item name="myprofile" type="drawable">@drawable/myprofile</item>
+    <item name="claimorder" type="drawable">@drawable/claimorder</item>
+    <item name="trackorder" type="drawable">@drawable/trackorder</item>
+    <item name="share" type="drawable">@drawable/share</item>
+    <item name="rateus" type="drawable">@drawable/rateus</item>
+    <item name="aboutus" type="drawable">@drawable/aboutus</item>
+    <item name="contactus" type="drawable">@drawable/contactus</item>
+    <item name="feedback" type="drawable">@drawable/feedback</item>
+    <item name="signout" type="drawable">@drawable/signout</item>
+
+</resources>

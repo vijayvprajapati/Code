@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/Home"
+          android:title="Home"
+          android:icon="@drawable/ic_account_balance_black_24dp"/>
+
+
+    <group android:checkableBehavior="single">
+
+
+
+            <item
+            android:id="@+id/nav_placeorder"
+            android:title="Add/Place Order"
+              android:icon="@drawable/makeorder"  />
+
+        <item
+            android:id="@+id/nav_myorders"
+            android:title="My Orders"
+            android:icon="@drawable/orderview"/>
+        <item
+            android:id="@+id/nav_myprofile"
+            android:title="My Profile" android:icon="@drawable/myprofile" />
+
+        <item android:id="@+id/nav_claim"
+                     android:title="Claim" android:icon="@drawable/claimorder"  />
+             <item
+                     android:id="@+id/nav_track"
+                     android:title="Track Order" android:icon="@drawable/trackorder" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" android:icon="@drawable/share"/>
+            <item
+                android:id="@+id/nav_rating"
+                android:title="Rate Us" android:icon="@drawable/rateus"/>
+
+            <item android:id="@+id/nav_aboutus"
+                  android:title="About Us" android:icon="@drawable/aboutus"/>
+
+            <item android:id="@+id/nav_contact_us"
+                  android:title="Contact Us" android:icon="@drawable/contactus"/>
+
+            <item android:id="@+id/nav_feedback"
+                android:title="Feedback" android:icon="@drawable/feedback"/>
+
+
+            <item android:id="@+id/nav_signout"
+                android:title="Sign Out" android:icon="@drawable/signout"/>
+
+
+    </group>
+
+     </menu>
+
+
+

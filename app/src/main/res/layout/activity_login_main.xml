@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="5"
+    android:paddingBottom="60dp"
+    android:paddingTop="60dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.example.codder.logibox.LoginMainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edittextUsername"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectedit"
+        android:textColorHint="@android:color/secondary_text_dark"
+        android:hint="Username OR EmailID"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edittextPassword"
+        android:background="@drawable/rectedit"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:textColorHint="@android:color/secondary_text_dark"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/buttonLogin"
+        android:text="Login"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textviewNoAccount"
+        android:text="Haven't Account Yet?Create Account"
+        android:gravity="center"
+        style="@style/textcolor"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textviewForgotPassword"
+        android:text="Forgot Password?"
+        android:gravity="center"
+        style="@style/textcolor"
+        android:textSize="16dp"/>
+
+</LinearLayout>
